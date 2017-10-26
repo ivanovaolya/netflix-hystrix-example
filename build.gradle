@@ -30,8 +30,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile group: 'com.netflix.hystrix', name: 'hystrix-core', version: '1.5.12'
     compile group: 'com.netflix.archaius', name: 'archaius-core', version: '0.7.5'
-//    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.3.5.RELEASE'
-//    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix-dashboard', version: '1.3.5.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.3.5.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix-dashboard', version: '1.3.5.RELEASE'
     /* LOGGING */
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
     /* UTILITY */
